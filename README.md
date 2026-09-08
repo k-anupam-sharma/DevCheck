@@ -57,7 +57,7 @@ flowchart TD
     B -->|Co-change, Siblings| D[Mark as HEURISTIC 🟡]
     
     C --> E{Contains Unresolved Patterns?}
-    E -->|Yes (e.g. dynamic dispatch)| F[Mark as NEEDS VERIFICATION 🔴]
+    E -->|"Yes (e.g. dynamic dispatch)"| F[Mark as NEEDS VERIFICATION 🔴]
     E -->|No| G[Mark as CONFIRMED 🟢]
     
     D --> H[Assemble Affected Items]
